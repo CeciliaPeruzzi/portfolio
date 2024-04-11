@@ -13,7 +13,8 @@ function Header() {
         <div className="header-text">
           <h1>Cecilia Peruzzi</h1>
           <h2>Desarrolladora Web Full Stack</h2>
-          <p>¡Hola! Soy Cecilia, una desarrolladora web en constante búsqueda de aprendizaje y crecimiento. Mi enfoque es aprender de cada desafío y colaborar de manera efectiva en equipos..</p>
+          <p>¡Hola! Soy Cecilia, una desarrolladora web junior enfocada en la creación de soluciones innovadoras y funcionales. Estoy interesada en crear experiencias digitales que no solo sean visualmente atractivas, sino también intuitivas y eficientes.</p>
+                                 
         </div>
         <div className="header-image">
           <img src= {image} alt="Cecilia Peruzzi" />

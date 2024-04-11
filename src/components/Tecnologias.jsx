@@ -2,7 +2,7 @@ import React from 'react'
 
 function Tecnologias() {
   return (
-      <div className="tecnologias-container">
+      <div className="tecnologias-container" id="tecnologias">
         <h1>Tecnologías</h1>
   
         {/* Frontend Card */}
@@ -68,8 +68,23 @@ function Tecnologias() {
               </div>
             </div>
         </div>
+
+        {/* Herramientas Card */}
+        <div className="card">
+          <h2>Metodologías Agiles</h2>
+            <div className="icon-container">
+              <div className="icon">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEQ0lEQVR4nO2aa4hVVRSAvzFHgykKiRHUXiSK2PwarCBBYcY/BpUxFZGiCfWjkBCV+0PDSVRUzB+G2kQJgSXYQ3uIIIKiIGYqlCaN4sydxsYHvgphchznyIJ14XA49569z7373Hvu3A8WzB3Ofqy1z1l7rbU31KhRo0blMg54H/gFOA/cVukE9gGLgCeoQhqBT4H/AS9C7gJfVJMhZgD/GCgelP+ANlLOa7qiXkwZAj4kpcwE7oQo9RewGHgWaFBpApYCXSHP3wPeIGU8DGRDvu0lwMgC7eqBj4DBkM9BHGhqWBdQQBR62aL96yFG+IaU0ADcCEx+eYx+lod8ChNIAW8HJv438GCMfkaqv/D3lSEFfBaY9IYi+vog0JcESxXPfGCP7zN41bL9JOCUtt8cMEAP8JK+VfJ3KxXMaN2+nrZstzsiLhjw/e4lQSZpUPIt8Cfwjv5ftqdu4AzwPbAGmA6MiDnODxaB0r9AHQ6pV0V/y7MljQKO5pmcrM4m4EnLMScDVw0NsAyHtOnKBgc9Czykz3QYTFISoI3AGIuxmwyM0O5Ibx4Dfi4w8HP63HuWcf11dWClMIIz5Zv11S2kyAv67LuWBsg5sVUW/iHMCM6Ub9WYO0qJLn1LhC0xjCCy08IIkjQdB665zAyf18qMqQJHdJsTJ3kwphG2USE8pda1VeBLX7WnJ6YRVpRZd2QVT1hOOquv/lxtjyYpC4GtwAWLvu6q3ykbKy0mK4HOWxH5PBqYtACHDfv9Q+OJxJloWKQc0oAmt9o2LAD6DcaQalDifG0wsUFd9WJoCcTvYdKrDjUxntECQ9TK5+L9YskYGFt8SmKsN5iQOLpSUR9S3AjbWhOhDrhoEOzk4v1S1gn8Y3Rq/CGR5TndER4hAaYZrL44r1Ijb8Fl7f/HgLKPAnuBV0iAZRHKX4np8U34XMvedb6ESs4D0dB4KgmwK8IAcobnilxxdFQglf4uqddf+D3CAFKTd8m4PEWUrC/TdMq1CAPYVnBskCiyr8DYkpA5ZzDCAHKs5YrGiLGlEuycoYhJuIzIpkSMLVmlczIFJiDJkUvmRRjgEAmRKYPywo4IA8ipUmK0J1Fn8yHb3M0IA8j9oURpT0h54WODCFSStKpkokHBVXKDqqQBOJ2G+qALJMk5YKC83CUaG2j7phZKJEKcTQqZqsdonoF8FdLefyAiFaU5pIQJWvM3vR7Xnyf8Dj4X2wjNjmWGlrMkzT1mEGkGZXWeeXulMoJXwfKr1h4aDapUsY3gVahI4eVxLYTst2xrZQSvAqVPDz3RS1Rx+hgwPW73Kkw6fRHf2iL7yqbNAB0aGD0AfFKC/rrTYoDDulsI4zXtLbbPAdMAySuT3AK2+xQfobdIr5ZIeWMneCIBkVOdn1RhucXxYuB67CzgZIkMm6qosBiGtfIMd+XRQGnYKo8e0FzSlNjmfmGNGjUYvtwH7/FnztuO2+IAAAAASUVORK5CYII=" style={{ width: '100px', height: '100px' }} alt="imagen" />
+              </div>
+            </div>
+        </div>
       </div>
+
+
     );
   };
   
   export default Tecnologias;
+
+
+  

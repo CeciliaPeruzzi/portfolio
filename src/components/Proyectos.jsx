@@ -1,7 +1,7 @@
 import React from 'react'
 import imagen1 from '../assets/images/patagonic.png'
 import imagen2 from '../assets/images/urlshortner.png'
-import imagen3 from '../assets/images/carrito.png'
+
 
 
 function Proyectos() {
@@ -10,30 +10,23 @@ function Proyectos() {
     {
       id: 1,
       titulo: 'Patagonic',
-      descripcion: 'Desarrollo de una página web fullstack a través de un proyecto integrador de 8 sprints trabajando de forma grupal',
-      skills: 'JavaScript / NodeJS / Express.js / MySQL / HTML / CSS',
+      descripcion: 'Desarrollo de una página web a través de un proyecto de 8 sprints trabajando de forma grupal. A través de las tecnologías empleadas, el resultado es un sitio intuitivo para el usuario.',
+      skills: 'JavaScript / NodeJS / Express.js / MySQL',
       imagen: imagen1,
       enlace: 'https://patagonic-ew96.onrender.com/',
     },
     {
       id: 2,
       titulo: 'Acortador de links',
-      descripcion: 'Aca va la descripcion de la pagina de digital house, con todas las tecnologias que utilice, etc.',
-      skills: 'JavaScript / NodeJS / Express.js / MongooDB / HTML / CSS',
+      descripcion: 'Este sitio está creado para optimizar el trabajo de los usuarios a la hora de incorporar links. Mejora la usabilidad, la accesibilidad y ahorro de espacio de los enlaces en cualquier plataforma que se desee.',
+      skills: 'JavaScript / NodeJS / Express.js / MongooDB',
       imagen: imagen2,
       enlace: 'https://urlshortener-20u9.onrender.com/',
     },
-    {
-      id: 3,
-      titulo: 'extension visual',
-      descripcion: 'Aca va la descripcion de la pagina de zeta, con todas las tecnologias que utilice, etc.',
-      skills: 'JavaScript / NodeJS / ExpressJS / MySQL / HTML / CSS',
-      imagen: imagen3,
-      enlace: 'enlace del proyecto3',
-    }
+    
   ]
     return (
-    <div className="proyectos-container">
+    <div className="proyectos-container" id= "proyectos">
       <h1>Proyectos</h1>
       <div className='proyectos'>
       {proyectos.map((proyecto) => (

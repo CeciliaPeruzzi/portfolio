@@ -1,8 +1,9 @@
 import React from 'react'
 
+
 function SobreMi() {
   return (
-    <div className='sobreMi-container'>
+    <div className='sobreMi-container' id= "sobremi">
       <h1>Sobre mi</h1>
         <div className='sobreMi'>
           <p> Hola! Me llamo Cecilia Peruzzi, soy Desarrolladora Web FullStack Junior en crecimiento.
