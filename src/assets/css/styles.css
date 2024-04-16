@@ -122,6 +122,8 @@ body {
 
 .proyectos-container h1 {
     padding: 50px;
+    padding-left: 300px;
+    text-align: start;
 }
   
   
@@ -132,15 +134,13 @@ body {
 
 .proyectos {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
     padding: 20px;
     
     
   }
  
-  .proyecto-card {
+.proyecto-card {
     background-color: #3333337a;
     padding: 25px;
     margin: 20px;
@@ -151,30 +151,30 @@ body {
   }
 
   
-  .proyecto-card img {
+.proyecto-card img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 10px;
   }
   
-  .proyecto-card h3 {
+.proyecto-card h3 {
     color: #fff;
   }
   
-  .descripcion {
+.descripcion {
     color: #eeeeeec7;
     margin-bottom: 15px;
     font-size: 12px;
   }
 
-  .skills {
+.skills {
     color: #67f9d2;
     font-size: 13px;
     
     
   }
   
-  .proyecto-card a {
+.proyecto-card a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -183,17 +183,15 @@ body {
   
   
 
-  .tecnologias-container {
-    text-align: center;
-    justify-content:space-between;
+.tecnologias-container {
+    
+    
     align-items: center;
-    flex-wrap: wrap;
-    padding: 100px;
+    padding: 280px;
 
   }
 .tecnologias-container h1 {
-    padding: 50px;
-    padding-left: 230px;
+    padding: 20px;
     text-align: start;
 }
 
@@ -201,9 +199,9 @@ body {
     color: #67f9d2d6;
 }
   
-  .card {
+.card {
     background-color: #3333337a;
-    padding: 20px;
+    padding: 50px;
     margin: 20px;
     border-radius: 20px;
     text-align: center;
@@ -215,34 +213,34 @@ body {
     box-shadow: 0 0 10px #ccc
   }
   
-  .icon svg {
+.icon svg {
     width: 100px; 
     height: 70px;
     
   }
   
-  .card h2 {
+.card h2 {
     color: #fff;
   }
   
-  .card p {
+.card p {
     color: #555;
     font-size: 14px; 
     margin: 0; 
   }
   
-  .card a {
+.card a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     display: block;
   }
   
-  .card a:hover {
+.card a:hover {
     color: #67f9d2d6;
   }
   
-  .sobreMi-container{
+.sobreMi-container{
     padding: 300px;
     padding-top: 30px;
     margin-top: 80px;
@@ -250,18 +248,20 @@ body {
     
   }
 
-  .sobreMi-container h1 {
+.sobreMi-container h1 {
     font-size: 30px;
-    padding: 30px;
+    
   }
 
-  .sobreMi-container h1:hover { 
+.sobreMi-container h1:hover { 
     color: #67f9d2d6;
   }
 
-  .sobreMi p {
+.sobreMi p {
     font-size: 15px;
-    padding: 30px;
+    padding-top: 30px;
+    margin: 30px;
+    
   }
 
  
@@ -311,8 +311,25 @@ body {
     margin-top: 20px;
   }
 
-  .proyectos-container {
-    margin-top: -5pc;
+  
+  .proyectos-container h1 {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .proyecto-card {
+    max-width: 300px;
+    width: 100%; 
+    margin: 20px auto; 
+  }
+
+  .card {
+      width: calc(50% - 20px);
+  }
+
+  .icon svg {
+      width: 80px;
+      height: 60px;
   }
 
   .tecnologias-container {
@@ -323,6 +340,16 @@ body {
     padding: 100px;
     padding-top: 30px;
     margin-top: 80px;
+  }
+
+  .sobreMi p {
+    width: 80%; 
+    margin: 0 auto 20px; 
+    text-align: left; 
+  }
+  .button-contacto {
+    width: 70%; 
+    margin: 20px auto; 
   }
 }
 
@@ -351,12 +378,20 @@ body {
     height: 150px;
   }
 
-  .proyectos-container {
-    margin-top: -2pc;
+  .proyecto-card {
+    max-width: calc(100% - 20px); 
+    width: calc(100% - 20px); 
+    margin: 20px auto; 
   }
 
-  .proyecto-card {
-    max-width: 250px;
+
+  .card {
+      width: calc(100% - 20px);
+  }
+
+  .icon svg {
+      width: 60px;
+      height: 40px;
   }
 
   .tecnologias-container {
@@ -375,7 +410,13 @@ body {
   }
 
   .sobreMi p {
-    font-size: 16px;
-    padding: 20px;
+    width: 90%; 
+    margin: 0 auto 20px; 
+    text-align: left; 
+  }
+  .button-contacto {
+    width: 80%; 
+    margin: 20px auto; 
   }
 }
+

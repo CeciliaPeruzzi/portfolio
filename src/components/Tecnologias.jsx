@@ -69,7 +69,7 @@ function Tecnologias() {
             </div>
         </div>
 
-        {/* Herramientas Card */}
+        {/* Metodologías Agiles Card */}
         <div className="card">
           <h2>Metodologías Agiles</h2>
             <div className="icon-container">
