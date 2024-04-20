@@ -33,7 +33,7 @@ function Header() {
                 <span>GitHub</span>
             </button>
         </a>
-        <a href="https://drive.google.com/file/d/1NGOEsi-RCfG-oDrlKmZsXlhQbkOpKAMG/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1uzku8brYPAcmYOgoJ9uvR77zlFQeMMMx/view" target="_blank" rel="noopener noreferrer">
             <button>
                 <FontAwesomeIcon icon={faCircleDown} />
                 <span>Curriculum</span>

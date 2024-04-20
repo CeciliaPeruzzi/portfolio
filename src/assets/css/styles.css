@@ -7,9 +7,7 @@ body {
     color: white;
     background: -webkit-linear-gradient(to right, #000000fa, #0000008a);
     background: linear-gradient(to right, #000000fa, #0000008a);
-}
-
-  
+} 
  
 .navbar {
     display: flex;
@@ -114,7 +112,7 @@ body {
     background-color: #77777757;
 }
 
-/* Estilos para la sección de Proyectos */
+
 .proyectos-container {
     text-align: center;
     margin-top: -10pc;
@@ -264,8 +262,6 @@ body {
     
   }
 
- 
-
 .button-contacto {
     background-color: #3333337a;
     color: white;
@@ -316,9 +312,8 @@ body {
     display: flex;
     flex-direction: column;  
   }
+
   .proyectos-container h1 {
-    /*padding-left: 0;
-    text-align: center;*/
     padding-left: 60px;
     text-align: center;
     padding-top: 200px;
