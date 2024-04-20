@@ -311,16 +311,26 @@ body {
     margin-top: 20px;
   }
 
-  
-  .proyectos-container h1 {
-    padding-left: 0;
-    text-align: center;
+  .proyectos {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;  
   }
+  .proyectos-container h1 {
+    /*padding-left: 0;
+    text-align: center;*/
+    padding-left: 60px;
+    text-align: center;
+    padding-top: 200px;
 
+  }
+  
   .proyecto-card {
     max-width: 300px;
     width: 100%; 
     margin: 20px auto; 
+    
+    
   }
 
   .card {
@@ -385,18 +395,13 @@ body {
   }
 
 
-  .card {
-      width: calc(100% - 20px);
-  }
-
-  .icon svg {
-      width: 60px;
-      height: 40px;
-  }
 
   .tecnologias-container {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
   }
+
 
   .sobreMi-container {
     padding: 50px;
@@ -415,7 +420,7 @@ body {
     text-align: left; 
   }
   .button-contacto {
-    width: 80%; 
+    width: 60%; 
     margin: 20px auto; 
   }
 }
