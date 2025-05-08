@@ -5,7 +5,7 @@ function Tecnologias() {
       <div className="tecnologias-container" id="tecnologias">
         <h1>Tecnologías</h1>
   
-        {/* Frontend Card */}
+        
         <div className="card">
           <h2>Frontend</h2>
           <div className="icon-container">
@@ -27,7 +27,7 @@ function Tecnologias() {
           
         </div>
   
-        {/* Backend Card */}
+        
         <div className="card">
           <h2>Backend</h2>
           <div className="icon-container">
@@ -48,7 +48,7 @@ function Tecnologias() {
           </div> 
         </div>
   
-        {/* Herramientas Card */}
+        
         <div className="card">
           <h2>Herramientas</h2>
             <div className="icon-container">
@@ -69,7 +69,7 @@ function Tecnologias() {
             </div>
         </div>
 
-        {/* Metodologías Agiles Card */}
+        
         <div className="card">
           <h2>Metodologías Agiles</h2>
             <div className="icon-container">

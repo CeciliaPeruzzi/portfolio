@@ -1,16 +1,17 @@
+node_modules/
+.cache/
+build/
+
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-
 /.pnp
 .pnp.js
-
 
 # testing
 /coverage
 
 # production
-
 
 # misc
 .DS_Store
